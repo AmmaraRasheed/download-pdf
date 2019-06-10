@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Link Of Pdf"
+        android:layout_margin="20dp"
+        android:id="@+id/pdf"
+        android:layout_height="100dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Title Of Pdf"
+        android:layout_margin="20dp"
+        android:id="@+id/title"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Start Downloading"
+        android:layout_margin="50dp"
+        android:onClick="StartDownloading"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
